@@ -94,7 +94,7 @@ public class BlankFragment extends DialogFragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
     }
-
+//عشان حجم dialog fragment
     @Override
     public void onResume() {
         super.onResume();

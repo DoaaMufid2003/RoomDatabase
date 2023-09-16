@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity implements Interface, My_Les
 
     @Override
     public void onEdit(int postion) {
+        //عشان تعرض dialog fragment
         BlankFragment fragment = BlankFragment.newInstance(postion, carList.get(postion).getCar_name(), carList.get(postion).getCar_color(), carList.get(postion).getYear());
         fragment.show(getSupportFragmentManager(), null);
 
